@@ -7,4 +7,8 @@ contract CZMToken is ERC20 {
     constructor() ERC20("CZM token", "CZM") {
         _mint(msg.sender, 100000000000000000000);
     }
+    // function what??
+    
+    function getCZM() public view return(uint){
+        returns  . . .
 }
